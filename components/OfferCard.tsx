@@ -6,14 +6,11 @@ type Offer = {
 };
 
 const LOGO_MAP: Record<string, string> = {
-  'betano': '/logos/operators/betano.svg',
-  'bwin': '/logos/operators/bwin.svg',
-  'betclic': '/logos/operators/betclic.svg',
-  'solverde': '/logos/operators/solverde.svg',
-  'placard': '/logos/operators/placard.svg',
-  'esc-online': '/logos/operators/esc-online.svg',
-  'nossa-aposta': '/logos/operators/nossa-aposta.svg',
-  'luckia': '/logos/operators/luckia.svg',
+  'bwin': '/logos/operators/bwin.jpg',
+  'betclic': '/logos/operators/betclic.png',
+  '888': '/logos/operators/888.png',
+  'bacanaplay': '/logos/operators/bacanaplay.png',
+  'solverde': '/logos/operators/solverde.png',
 };
 
 export default function OfferCard({ offer }: { offer: Offer }) {
