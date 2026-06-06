@@ -103,9 +103,9 @@ export default async function HomePage() {
             </div>
           </div>
           <div className="as-partners">
-            <img src="/logos/safety/gamcare.svg" alt="GamCare" width="80" height="24" />
-            <img src="/logos/safety/gambleaware.svg" alt="BeGambleAware" width="100" height="24" />
-            <img src="/logos/safety/gamstop.svg" alt="GamStop" width="80" height="24" />
+            <a href="https://www.gamcare.org.uk" target="_blank" rel="noopener"><img src="/logos/safety/gamcare.svg" alt="GamCare" width="80" height="24" /></a>
+            <a href="https://www.begambleaware.org" target="_blank" rel="noopener"><img src="/logos/safety/gambleaware.svg" alt="BeGambleAware" width="100" height="24" /></a>
+            <a href="https://www.gamstop.co.uk" target="_blank" rel="noopener"><img src="/logos/safety/gamstop.svg" alt="GamStop" width="80" height="24" /></a>
           </div>
         </section>
 
