@@ -1,7 +1,7 @@
 type Offer = {
   slug: string; display_name: string; brand_color: string; rating: number;
   bonus_headline: string; feature_bullets: string[]; payment_methods: string[];
-  min_deposit_gbp: number; min_wager_terms: string; tracker_url: string;
+  min_deposit_eur: number; min_wager_terms: string; tracker_url: string;
   logo_url?: string; logo_bg?: string;
 };
 
@@ -36,8 +36,9 @@ export default function OfferCard({ offer }: { offer: Offer }) {
       <div className="as-card-pay">
         {offer.payment_methods.map(p => <span key={p}>{p}</span>)}
       </div>
-      <p className="as-card-meta">Mín. {offer.min_deposit_gbp}€ · {offer.min_wager_terms}</p>
+      <p className="as-card-meta">Mín. {offer.min_deposit_eur}€ · {offer.min_wager_terms}</p>
       <a className="as-card-cta" href={offer.tracker_url} target="_blank" rel="nofollow sponsored noopener">Ver Oferta</a>
+      <p className="as-card-tc">18+ · T&Cs Apply</p>
     </article>
   );
 }

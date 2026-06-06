@@ -105,6 +105,7 @@ body {
   text-decoration: none;
 }
 .as-card-cta:hover { background: #34d399; color: #0f1a14; }
+.as-card-tc { font-size: 9px; color: var(--as-mute); text-align: center; margin: 0; opacity: 0.7; }
 
 /* ── STEPS ── */
 .as-steps { padding: 48px 0; border-top: 1px solid var(--as-border); }

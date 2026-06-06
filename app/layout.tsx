@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Outfit, IBM_Plex_Sans } from 'next/font/google';
 import './globals.css';
+import CookieBar from '@/components/CookieBar';
 
 const outfit = Outfit({ subsets: ['latin'], weight: ['400', '500', '600', '700'], variable: '--font-outfit' });
 const ibm = IBM_Plex_Sans({ subsets: ['latin'], weight: ['400', '500'], variable: '--font-ibm' });
@@ -10,6 +11,7 @@ export const metadata: Metadata = {
   title: 'Aposta Segura — Ofertas de Casino Licenciadas SRIJ',
   description: 'Compare as melhores ofertas de boas-vindas de casinos licenciados pelo SRIJ em Portugal. Escolhas editoriais independentes para adultos 18+.',
   robots: { index: true, follow: true },
+  icons: { icon: '/favicon.svg' },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -36,7 +38,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
       </head>
-      <body className="font-body antialiased">{children}</body>
+      <body className="font-body antialiased">{children}<CookieBar /></body>
     </html>
   );
 }
