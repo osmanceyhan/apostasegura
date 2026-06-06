@@ -1,6 +1,7 @@
 import { headers } from 'next/headers';
 import OfferCard from '@/components/OfferCard';
 import Accordion from '@/components/Accordion';
+import MobileNav from '@/components/MobileNav';
 import offersData from '@/data/offers.json';
 
 type Offer = {
@@ -47,6 +48,7 @@ export default async function HomePage() {
             <a href="#seguranca">Segurança</a>
             <a href="/responsible-gambling">Jogo Responsável</a>
           </nav>
+          <MobileNav />
         </div>
       </header>
 

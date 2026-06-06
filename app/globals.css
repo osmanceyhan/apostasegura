@@ -35,7 +35,41 @@ body {
 .as-nav-links { display: flex; gap: 20px; }
 .as-nav-links a { font-size: 12px; font-weight: 500; color: var(--as-mute); text-decoration: none; text-transform: uppercase; letter-spacing: 0.08em; transition: color 150ms; }
 .as-nav-links a:hover { color: var(--as-accent); }
-@media (max-width: 640px) { .as-nav-links { gap: 12px; flex-wrap: wrap; } .as-nav-links a { font-size: 10px; padding: 10px 4px; } }
+/* ── BURGER ── */
+.as-burger {
+  display: none; background: none; border: none; cursor: pointer;
+  width: 32px; height: 32px; position: relative; padding: 0;
+}
+.as-burger span, .as-burger::before, .as-burger::after {
+  content: ''; display: block; position: absolute; left: 4px; right: 4px; height: 2px;
+  background: var(--as-text); border-radius: 2px; transition: transform 200ms, opacity 200ms;
+}
+.as-burger::before { top: 8px; }
+.as-burger span { top: 15px; }
+.as-burger::after { top: 22px; }
+.as-burger span.as-burger-x { opacity: 0; }
+.as-burger:has(span.as-burger-x)::before { transform: translateY(7px) rotate(45deg); }
+.as-burger:has(span.as-burger-x)::after { transform: translateY(-7px) rotate(-45deg); }
+
+.as-mobile-overlay {
+  position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 90;
+}
+.as-mobile-menu {
+  position: fixed; top: 52px; left: 0; right: 0; z-index: 95;
+  background: #0f1a14; border-bottom: 1px solid var(--as-border);
+  display: flex; flex-direction: column; padding: 8px 0;
+}
+.as-mobile-menu a {
+  padding: 14px 24px; font-size: 14px; font-weight: 500; color: var(--as-text);
+  text-decoration: none; border-bottom: 1px solid var(--as-border);
+}
+.as-mobile-menu a:last-child { border-bottom: none; }
+.as-mobile-menu a:hover { color: var(--as-accent); background: rgba(16,185,129,0.05); }
+
+@media (max-width: 640px) {
+  .as-nav-links { display: none; }
+  .as-burger { display: block; }
+}
 
 /* ── HERO BANNER ── */
 .as-hero {
