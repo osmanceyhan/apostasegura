@@ -1,6 +1,6 @@
 {
   "site": "apostasegura",
-  "clickid": "as20260606",
+  "clickid": "seg2026q2",
   "offers": [
     {
       "slug": "betano",
@@ -12,7 +12,7 @@
       "payment_methods": ["Visa", "Mastercard", "MB Way", "Multibanco"],
       "min_deposit_gbp": 10,
       "min_wager_terms": "20x bónus, 30 dias",
-      "tracker_url": "https://www.betano.pt/?utm_source=apostasegura&utm_medium=affiliate&utm_campaign=pt_segura&utm_content=betano&subid=bet-as0606",
+      "tracker_url": "https://www.betano.pt/?utm_source=apostasegura&utm_medium=affiliate&utm_campaign=pt_segura&utm_content=betano&subid=segura_betano_pt1",
       "logo_bg": "#1a8b4d"
     },
     {
@@ -25,7 +25,7 @@
       "payment_methods": ["Visa", "Mastercard", "MB Way", "Multibanco", "PayPal"],
       "min_deposit_gbp": 10,
       "min_wager_terms": "30x bónus, 30 dias",
-      "tracker_url": "https://www.bwin.pt/?utm_source=apostasegura&utm_medium=affiliate&utm_campaign=pt_segura&utm_content=bwin&subid=bw-as0606",
+      "tracker_url": "https://www.bwin.pt/?utm_source=apostasegura&utm_medium=affiliate&utm_campaign=pt_segura&utm_content=bwin&subid=segura_bwin_pt2",
       "logo_bg": "#1a1a1a"
     },
     {
@@ -38,7 +38,7 @@
       "payment_methods": ["Visa", "Mastercard", "MB Way", "Multibanco"],
       "min_deposit_gbp": 10,
       "min_wager_terms": "Sem rollover nos spins",
-      "tracker_url": "https://www.placard.pt/?utm_source=apostasegura&utm_medium=affiliate&utm_campaign=pt_segura&utm_content=placard&subid=pl-as0606",
+      "tracker_url": "https://www.placard.pt/?utm_source=apostasegura&utm_medium=affiliate&utm_campaign=pt_segura&utm_content=placard&subid=segura_placard_pt3",
       "logo_bg": "#ff6600"
     },
     {
@@ -51,7 +51,7 @@
       "payment_methods": ["Visa", "Mastercard", "MB Way", "Multibanco"],
       "min_deposit_gbp": 10,
       "min_wager_terms": "20x bónus, 30 dias",
-      "tracker_url": "https://www.betclic.pt/?utm_source=apostasegura&utm_medium=affiliate&utm_campaign=pt_segura&utm_content=betclic&subid=bc-as0606",
+      "tracker_url": "https://www.betclic.pt/?utm_source=apostasegura&utm_medium=affiliate&utm_campaign=pt_segura&utm_content=betclic&subid=segura_betclic_pt4",
       "logo_bg": "#e3001b"
     },
     {
@@ -64,7 +64,7 @@
       "payment_methods": ["Visa", "Mastercard", "MB Way", "Multibanco"],
       "min_deposit_gbp": 10,
       "min_wager_terms": "30x bónus, 30 dias",
-      "tracker_url": "https://www.solverde.pt/?utm_source=apostasegura&utm_medium=affiliate&utm_campaign=pt_segura&utm_content=solverde&subid=sv-as0606",
+      "tracker_url": "https://www.solverde.pt/?utm_source=apostasegura&utm_medium=affiliate&utm_campaign=pt_segura&utm_content=solverde&subid=segura_solverde_pt5",
       "logo_bg": "#003d7a"
     }
   ]
